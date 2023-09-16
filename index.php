@@ -17,3 +17,10 @@ require_once __DIR__.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR."autoload.
 //$trip->move();
 
 /** Open Closed Principle Example 3 **/
+//$bus = new \SOLID\OpenClosedPrinciple\Example3\Bus();
+//$bus->setColor("red");
+//$bus->setMaximumSpeed(120);
+//$bus->setMovable(new \SOLID\OpenClosedPrinciple\Example3\RoadsMoving());
+//$trip = new \SOLID\OpenClosedPrinciple\Example3\Trip();
+//$trip->vehicle = $bus;
+//$trip->move();
