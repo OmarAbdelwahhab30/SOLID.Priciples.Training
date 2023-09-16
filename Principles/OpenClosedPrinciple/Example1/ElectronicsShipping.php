@@ -1,6 +1,6 @@
 <?php
 
-namespace SOLID\OpenClosedPrinciple\adherence\Example1;
+namespace SOLID\OpenClosedPrinciple\Example1;
 
 class ElectronicsShipping implements IShipping
 {
