@@ -47,7 +47,7 @@ abstract class Vehicle implements IMove
         $this->maximumSpeed = $maximumSpeed;
     }
 
-    public function setMovable(IMove $movable)
+    protected function setMovable(IMove $movable)
     {
         $this->movable = $movable;
     }
